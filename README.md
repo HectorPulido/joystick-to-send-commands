@@ -9,7 +9,7 @@ This is a simple script to control my media center with a joystick
 
 ## How to run in background and on startup
 1. TODO: Add instructions for startup
-2. Run this for background execution `nohup source venv/bin/activate && python main.py &`
+2. Run this for background execution `source venv/bin/activate && nohup python main.py &`
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
