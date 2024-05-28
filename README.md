@@ -7,6 +7,10 @@ This is a simple script to control my media center with a joystick
 3. Modify the `config.json` file to match your setup, if you don't know what to put in your file, activate the flag debug and see the output of the joystick.
 4. Run the script with `python main.py`
 
+## How to run in background and on startup
+1. TODO: Add instructions for startup
+2. Run this for background execution `nohup source venv/bin/activate && python main.py &`
+
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 <hr>
