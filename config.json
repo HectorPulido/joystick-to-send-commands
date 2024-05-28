@@ -1,0 +1,42 @@
+{
+    "debug": false,
+    "commands": [
+        {
+            "buttons": [
+                7,
+                8,
+                0
+            ],
+            "action": "emulationstation",
+            "constraints": [
+                {
+                    "process": "emulationstatio &",
+                    "status": "not running"
+                }
+            ]
+        },
+        {
+            "buttons": [
+                7,
+                8,
+                1
+            ],
+            "action": "steam -bigpicture",
+            "constraints": [
+                {
+                    "process": "steam &",
+                    "status": "not running"
+                }
+            ]
+        },
+        {
+            "buttons": [
+                7,
+                8,
+                2
+            ],
+            "action": "pkill -9 steam & pkill -9 emulationstatio",
+            "constraints": []
+        }
+    ]
+}
